@@ -17,7 +17,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 	<!-- custom css -->
-	<link rel="stylesheet" href="<?php get_url(); ?>/app/assets/css/style.css">
+	<link rel="stylesheet" href="./app/assets/css/style.css">
 
 </head>
 <body>

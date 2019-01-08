@@ -5,6 +5,6 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<!-- custom JS -->
-	<script src="<?php get_url(); ?>/app/assets/js/script.js"></script>
+	<script src="./app/assets/js/script.js"></script>
 </body>
 </html>
