@@ -29,9 +29,7 @@
 						`;			
 					}					
 				}
-
 				$("#taskList").html(content);
-
 			}
 		}) 		
 	};
@@ -54,7 +52,6 @@
 				// retrieveTasks();
 			}
 		})
-
 	};
 
 	retrieveTasks();
@@ -76,9 +73,12 @@
 				},
 				success: function(jsondata) {
 					console.log("add success");
+
+					// $(element).fadeIn('fast');
+					// $(elementControl).fadeIn('fast');
 					retrieveTasks();
 				}
-			}) 
+			});
 			
 		}
 	});
@@ -88,3 +88,5 @@
 		const taskID = parseInt($(this).attr('id'));
 		removeTasks(taskID);
 	});
+
+	// $("#taskList").on("click", '.removeBtn',

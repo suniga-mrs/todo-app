@@ -15,11 +15,10 @@
 
 			if ($result === TRUE) {
 				echo "Task added succesfully!";
-				header('location: ../../index.php');
+				// header('location: ../../index.php');
 
 			} else {
 				echo "Error " . $sql . "<br>" . mysqli_error($conn);
-
 			}
 
 			mysqli_close($conn);
